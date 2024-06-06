@@ -1,22 +1,11 @@
-print("Hello world")
-a = 1 + 2 * 3 / 4.0
-print(a)
+#print statement
+print('Hello World')
 
-remainder = 11 % 3
-print(remainder)
-
-square = 4 ** 2
-cube = 4 ** 3
-print(square)
-print(cube)
-
-a = "hello" + " " + "world"
-print(a)
-
-b = "hello" * 5
-print(b)
-
-name = "Ram"
-print("Hello %s" % name)
-age = 23
-print("%s is %d years old" %(name, age))
+#variables
+failed_subjects="2"
+name='John'
+print('Dear Mrs Badger')
+print('Your son ' + name + ' is failing ' + failed_subjects + ' subjects.')
+print(name + '  will need to redo ' + failed_subjects + '  courses.')
+name="Eric"
+print(name + '  is doing well in geography.')
